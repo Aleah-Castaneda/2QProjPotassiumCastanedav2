@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	background-color: #2D4C2A;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+header {
+	height: 10%;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 85px;
+	margin-top: 10px;
+}
+nav {
+	flex: 1;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+.home:hover {
+	color: #ffff00;
+}
+.row {
+	display: flex;
+	align-items: center:
+}
+.col {
+	flex-basis: 50%;
+	margin-top: 5px;
+}
+h1 {
+	font-size: 55px;
+	font-family: Monotype Corsiva;
+	margin-top: 4.4cm;
+	background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+	background-size: 200% auto;
+	color: #000;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textAnimate 4s linear infinite;
+}
+@keyframes textAnimate {
+    to {
+      background-position: 200% center;
+    }
+}
+p {
+	color: #fff;
+	font-size: 17px;
+	font-family: Calibri;
+}
+.card {
+	width: 203px;
+	height: 235px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 10px 15px ;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1 {
+	background-image: url("C:/Users/Asus/Documents/2QProjPotassiumCastaneda/images/pic-1.png");
+}
+.card2 {
+	background-image: url("C:/Users/Asus/Documents/2QProjPotassiumCastaneda/images/pic-2.png");
+}
+.card3 {
+	background-image: url("C:/Users/Asus/Documents/2QProjPotassiumCastaneda/images/pic-3.png");
+}
+.card4 {
+	background-image: url("C:/Users/Asus/Documents/2QProjPotassiumCastaneda/images/pic-4.png");
+}
+.card:hover {
+	transform: translateY(-10px);
+}
+h5 {
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+.card p {
+	text-shadow: 0 0 15px #000;
+	font-size: 12px;
+	font-family: Calibri;
+}
+footer {
+	padding: 0;
+	background-color: #fff;
+	margin-top: 10px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+.social-links {
+	display: flex;
+}
+.social-links ul {
+	display: flex;
+}
+.social-items {
+	list-style: none;
+}
+.social-items a {
+	padding: 10px 10px;
+	font-size: 28px;
+	color: #996633;
+}
+.social-items:hover {
+	transform: scale(1.1) translateX(10%);
+}
+.copyright {
+	color:black; 
+	font-family:Calibri; 
+	font-size: 15px; 
+	text-align: center; 
+	margin-top: 7px;
+}
+.references {
+	text-decoration: none;
+	color: #996633;
+	font-family: Calibri; 
+	font-size: 15px; 
+	text-align: center; 
+	margin-top: 7px; 
+	display: block;"
+}
+.references:hover {
+	color: #ffcc00;
+}
+
+
+	
+	
